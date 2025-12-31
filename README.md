@@ -19,12 +19,43 @@ The analysis involved several key steps:
     * **K-means Clustering**: K-means clustering was performed on the first two principal components with 5 clusters and 10 initialization steps. Cluster labels were added to the PCA data, and clusters were plotted with their centroids.
 
     * **Hierarchical Clustering**: Hierarchical clustering was conducted using scaled data, the 'complete' linkage method, and Euclidean metric. A truncated dendrogram was plotted to show the top five levels of clustering. The `cut_tree` function was used to define 5 clusters and obtain cluster labels.
+  
+
+## Exploratory Data Analysis
+
+1. Univariate Analysis
+
+   <img width="506" height="373" alt="image" src="https://github.com/user-attachments/assets/702dc40a-31c7-49e1-8025-4cb7bebe0196" />
+
+
+2. Death over time for Specific Causes
+
+   <img width="494" height="259" alt="image" src="https://github.com/user-attachments/assets/164f47a5-e7a2-4042-96db-67caa024d0f8" />
+
+   <img width="496" height="263" alt="image" src="https://github.com/user-attachments/assets/86e166a2-89e3-4054-b624-10015bb4f275" />
+
+
+
+3. Bivariate Analysis
+
+   Correlation Matrix
+
+   <img width="470" height="359" alt="image" src="https://github.com/user-attachments/assets/bb5a62ce-cd0b-42b2-9983-9374fc015b0d" />
+
+
+
 
 ## Results
 
 The analysis revealed significant relationships between different health risks and provided valuable insights into their distribution across various countries.
 
 **PCA**: The PCA effectively reduced data dimensionality, highlighting the underlying structure and variability.
+
+   <img width="853" height="547" alt="image" src="https://github.com/user-attachments/assets/8e3ba8c2-826d-428d-8d1c-eceec3375738" />
+
+   <img width="440" height="265" alt="image" src="https://github.com/user-attachments/assets/b6b68e9f-b39e-4395-82fd-0dfcd5deb52d" />
+
+
 
 **K-means Clustering**: Five distinct clusters were identified, each with unique health risk profiles : 
 
@@ -39,8 +70,14 @@ The analysis revealed significant relationships between different health risks a
 
 * **Cluster 4**: Displayed elevated health risk factor values, though not as extreme as Cluster 1, suggesting substantial but lesser health hazards.
 
+  <img width="853" height="547" alt="image" src="https://github.com/user-attachments/assets/5605bea4-e580-4f1c-bd2b-d7b7b1958e57" />
+
+
     
 **Hierarchical Clustering**: This method also helped define groups with similar health risk characteristics. The dendrogram graphically represented the tree structure of clusters, illustrating similarities and dissimilarities between data points and clusters.
+
+   <img width="841" height="638" alt="image" src="https://github.com/user-attachments/assets/31680341-9de0-49c3-ad79-202a7d7795c0" />
+
 
 ## Conclusion
 
