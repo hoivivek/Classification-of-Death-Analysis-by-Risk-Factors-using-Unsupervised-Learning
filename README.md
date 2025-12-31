@@ -53,7 +53,7 @@ The analysis revealed significant relationships between different health risks a
 
    <img width="853" height="547" alt="image" src="https://github.com/user-attachments/assets/8e3ba8c2-826d-428d-8d1c-eceec3375738" />
 
-   <img width="440" height="265" alt="image" src="https://github.com/user-attachments/assets/b6b68e9f-b39e-4395-82fd-0dfcd5deb52d" />
+ 
 
 
 
